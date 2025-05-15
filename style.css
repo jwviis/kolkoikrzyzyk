@@ -1,4 +1,4 @@
-/* Styl ogólny dla całego dokumentu */
+
 body {
     background: linear-gradient(135deg, #042ccaf1, #fa047ff6, #fafafab4);
     background-size: 400% 400%;
@@ -10,7 +10,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-/* Kontener gry */
+
 .game-container {
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ body {
     padding: 20px;
 }
 
-/* Plansza gry */
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
@@ -28,7 +28,7 @@ body {
     margin: 0 auto;
 }
 
-/* Pojedyncze pole (komórka) */
+
 .cell {
     width: 100px;
     height: 100px;
@@ -48,7 +48,7 @@ body {
     background-color: rgba(255, 255, 255, 1);
 }
 
-/* Czerwona linia zwycięstwa */
+
 .line {
     width: 314px;
     height: 5px;
@@ -58,21 +58,21 @@ body {
     z-index: 1;
 }
 
-/* Nagłówki */
+
 h1 {
     text-align: center;
     color: white;
     margin: 10px 0;
 }
 
-/* Komunikat tury i zwycięstwa */
+
 #message {
     font-size: 20px;
     color: white;
     margin: 10px 0;
 }
 
-/* Przycisk reset */
+
 #resetBtn {
     padding: 10px 20px;
     font-size: 16px;
